@@ -7,14 +7,14 @@ const projects = [
     title: "Portfolio Website",
     description: "A fully responsive portfolio built with React and Tailwind CSS.",
     techStack: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "https://your-portfolio.com",
+    link: "https://portfolioby-avi.vercel.app/",
   },
   {
     id: 2,
     title: "E-Commerce Platform",
     description: "An online store with cart functionality and secure checkout.",
     techStack: ["Next.js", "Stripe", "MongoDB"],
-    link: "https://your-ecommerce.com",
+    link: "https://therachanaart.netlify.app/",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projects = [
     id: 4,
     title: "Task Management App",
     description: "A productivity app to manage daily tasks efficiently.",
-    techStack: ["Vue.js", "Firebase", "Tailwind CSS"],
+    techStack: ["React.js", "Firebase", "Tailwind CSS"],
     link: "https://your-taskapp.com",
   },
   {

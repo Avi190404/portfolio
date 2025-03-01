@@ -35,7 +35,7 @@ const projects = [
     title: "Weather Forecast App",
     description: "A real-time weather forecast app with location tracking.",
     techStack: ["React", "API", "CSS"],
-    link: "https://your-weatherapp.com",
+    link: "https://wether-app-jade.vercel.app/",
   },
 ];
 

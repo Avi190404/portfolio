@@ -32,12 +32,12 @@ const Contact = () => {
       >
         <div>
           <h2 className="text-2xl font-semibold">Phone</h2>
-          <p className="text-lg">+91 814066 0570</p>
+          <p className="text-lg text-purple-400 hover:text-purple-500">+91 814066 0570</p>
         </div>
 
         <div>
           <h2 className="text-2xl font-semibold">Email</h2>
-          <p className="text-lg"><a href="mailto:avi19042004@gmail.com">avi19042004@gmail.com</a></p>
+          <p className="text-lg text-purple-400 hover:text-purple-500"><a href="mailto:avi19042004@gmail.com">avi19042004@gmail.com</a></p>
         </div>
 
         <div className="space-x-6 mt-6">
@@ -66,7 +66,7 @@ const Contact = () => {
               Twitter
             </motion.a>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Avi190404"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-400 transition duration-300"
@@ -77,7 +77,7 @@ const Contact = () => {
               GitHub
             </motion.a>
             <motion.a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/avi_19044/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-pink-500 hover:text-pink-300 transition duration-300"

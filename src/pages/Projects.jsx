@@ -29,7 +29,7 @@ const projects = [
     description:
       "A weather app that provides real-time weather updates and forecasts using OpenWeatherMap API.",
     stack: "React • tailwindcss • OpenWeatherMap API",
-    github: "https://github.com/yourusername/linkedin-giveaway",
+    github: "https://weather.avi-dev.in/",
   },
   {
     title: "This Portfolio Website",
@@ -81,7 +81,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               className="text-sm text-blue-400 underline"
             >
-              View Code ↗
+              Demo ↗
             </a>
           </motion.div>
         ))}

@@ -13,22 +13,34 @@ const About = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-4xl font-bold mb-4">
-          Hi, I'm Avi <span className="inline-block animate-waving-hand">👋</span>
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+          Hi, I'm Avi{" "}
+          <span className="inline-block animate-waving-hand">👋</span>
         </h1>
 
-        <p className="text-gray-300 text-lg mb-1">
-          Full-Stack Developer from India
+        <p className="text-gray-300 text-xl mb-2">
+          Full-Stack Developer & Automation Engineer
         </p>
         <p className="text-gray-400 text-lg mb-6">
-          Passionate about building web apps and automation solutions.
+          Enjoys building web apps and crafting automation solutions.
         </p>
 
-        <p className="text-gray-500 text-sm mb-6" >📧 <a href="mailto:avi19042004@gmail.com" className="text-purple-500 hover:text-purple-700">avi19042004@gmail.com</a></p>
+        <div className="text-gray-400 text-sm mb-2">
+          📍 <span className="text-white">Surat, Gujarat, India</span>
+        </div>
+        <div className="text-gray-400 text-sm mb-6">
+          📧{" "}
+          <a
+            href="mailto:avi19042004@gmail.com"
+            className="text-purple-400 hover:text-purple-500"
+          >
+            avi19042004@gmail
+          </a>
+        </div>
 
         <button
           onClick={() => navigate("/skills")}
-          className=" bg-purple-700 hover:bg-purple-500 text-white font-semibold px-6 py-3 rounded-md transition"
+          className="bg-purple-700 hover:bg-purple-600 text-white font-semibold px-6 py-3 rounded-md transition"
         >
           View Skills
         </button>

@@ -75,14 +75,14 @@ const Projects = () => {
             <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
             <p className="text-sm text-purple-100 mb-4">{project.description}</p>
             <p className="text-sm text-purple-300 italic mb-4">{project.stack}</p>
-            <a
+            {/* <a
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-blue-400 underline"
             >
               Demo ↗
-            </a>
+            </a> */}
           </motion.div>
         ))}
       </div>
